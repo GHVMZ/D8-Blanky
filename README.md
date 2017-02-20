@@ -1,5 +1,5 @@
 # D8-Blanky
-Blank starter theme for Drupal 8 using [Foundation 6](http://foundation.zurb.com/) for grid.
+Blank starter theme for Drupal 8.
 
 ### Live reload in development
 The theme is using gulp.js, SASS and [livereload](http://livereload.com/) for faster development, originally created by [Watch and Learn](https://www.youtube.com/watch?v=vatnNkOKZ7o). In order for this to work you first have to disable cache and enabling Twig debug in the CMS, [tutorial](https://www.drupal.org/node/2598914).
