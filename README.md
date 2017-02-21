@@ -10,3 +10,8 @@ npm install
 gulp watch
 ```
 When the gulp is watching the files, download and install [livereload](http://livereload.com/) and make sure it's running, or you can install the app for chrome as a [plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
+
+### Theme is using:
+- [Foundation 6](http://foundation.zurb.com/) (grid)
+- [Animate.css](https://daneden.github.io/animate.css/) (animations)
+- [Font-Awesome](http://fontawesome.io/) (icons)
