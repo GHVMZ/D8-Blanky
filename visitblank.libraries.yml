@@ -3,6 +3,7 @@ global-css:
     theme:
       css/foundation.min.css: {}
       css/font-awesome.min.css: {}
+      css/animate.css: {}
       css/style.css: {}
 global-js:
   js:
