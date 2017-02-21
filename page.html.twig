@@ -1,19 +1,16 @@
 {% include directory ~ '/partials/header.html.twig' %}
+  <main>
+    <div class="row">
 
-  <main role="main">
-    <div class="container">
-      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-      <div class="layout-content">
+      <div class="medium-8 columns">
         {{ page.content }}
       </div>{# /.layout-content #}
 
       {% if page.sidebar %}
-        <aside class="layout-sidebar" role="complementary">
+        <aside class="medium-4 columns" role="complementary">
           {{ page.sidebar }}
         </aside>
       {% endif %}
     </div>
   </main>
-
   {% include directory ~ '/partials/footer.html.twig' %}

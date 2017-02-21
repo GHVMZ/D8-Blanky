@@ -1,8 +1,8 @@
 global-css:
   css:
     theme:
+      css/foundation.min.css: {}
       css/style.css: {}
-
 global-js:
   js:
     js/main.js: {}
