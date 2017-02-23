@@ -17,7 +17,6 @@ gulp.task('imagemin', function () {
         .pipe(gulp.dest('./images'));
 });
 
-
 gulp.task('sass', function () {
   gulp.src('./sass/*.scss')
     .pipe(sourcemaps.init())
@@ -26,7 +25,6 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css'));
 });
-
 
 gulp.task('uglify', function() {
   gulp.src('./lib/*.js')

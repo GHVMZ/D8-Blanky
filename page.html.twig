@@ -2,15 +2,11 @@
   <main>
     <div class="row">
 
-      <div class="medium-8 columns">
+      <div class="medium-12 columns">
         {{ page.content }}
       </div>
 
-      {% if page.sidebar %}
-        <aside class="small-12 medium-4 columns" role="complementary">
-          {{ page.sidebar }}
-        </aside>
-      {% endif %}
     </div>
   </main>
+
   {% include directory ~ '/partials/footer.html.twig' %}
