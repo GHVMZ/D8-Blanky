@@ -23,13 +23,13 @@ header{
         cursor: pointer;
         font-size: 1.3rem;
         color: #fff;
-        @media(min-width: 600px){
+        @media(min-width: 670px){
             display: none !important;
         }
     }
 
 
-    .active{display: block !important; color: $primary !important;}
+    .active{display: block !important; color: $primary !important; transform: rotate(90deg);}
     .is-active{color: $primary !important;}
 
     // MENU
@@ -45,7 +45,7 @@ header{
             }
         }
 
-        @media(max-width: 600px){        
+        @media(max-width: 670px){        
         left: 0;
         position: absolute;
         display: none;

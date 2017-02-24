@@ -4,9 +4,12 @@ global-css:
       css/foundation.min.css: {}
       css/font-awesome.min.css: {}
       css/animate.css: {}
+      css/aos.css: {}
       css/style.css: {}
 global-js:
   js:
     js/main.js: {}
+    js/aos.js: {}
+    js/initialize.js: {}
   dependencies:
     - core/jquery

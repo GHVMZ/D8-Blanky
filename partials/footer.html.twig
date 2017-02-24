@@ -1,5 +1,5 @@
   {% if page.footer %}
-    <footer role="contentinfo">
+    <footer role="contentinfo" id="trigger-right">
       <div class="row">
         {{ page.footer }}
       </div>
@@ -16,13 +16,16 @@
             </div>
         </div>
 
+        <div class="slide-top" data-aos="fade-left" data-aos-anchor="#trigger-right">
+            <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
         <div class="small-12 medium-6">
             <div class="social float-right">
               <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
-              <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
             </div>
         </div>
 
