@@ -15,3 +15,4 @@ When the gulp is watching the files, download and install [livereload](http://li
 - [Foundation 6](http://foundation.zurb.com/) (grid)
 - [Animate.css](https://daneden.github.io/animate.css/) (animations)
 - [Font-Awesome](http://fontawesome.io/) (icons)
+- [AOS](https://github.com/michalsnik/aos) (Animate On Scroll)
